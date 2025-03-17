@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.10/dist/sweetalert2.all.min.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="splash">
+        <span id="splash-button-one">One Player</span>
+        <span id="splash-button-two">Two Player</span>
+    </div>
+    <div class="center">
+        <div class="container">
+            <div class="turn">
+                <div class="x green">X</div>
+                <div class="name">X-O Game</div>
+                <div class="o blue op">O</div>
+            </div>
+            <div class="cards">
+                <div data-number="0" class="card" style="border-top: none;border-left:none ;"></div>
+                <div data-number="1" class="card" style="border-top: none;"></div>
+                <div data-number="2" class="card" style="border-top: none;border-right:none;"></div>
+                <div data-number="3" class="card" style="border-left: none;"></div>
+                <div data-number="4" class="card"></div>
+                <div data-number="5"class="card" style="border-right: none;"></div>
+                <div data-number="6"class="card" style="border-left: none;border-bottom: none;"></div>
+                <div data-number="7" class="card" style="border-bottom: none;"></div>
+                <div data-number="8" class="card" style="border-bottom: none;border-right: none;"></div>
+            </div>
+        </div>
+        <div>
+            <button id="reset" class="reset-button">Reset</button>
+        </div>
+    </div>
+    <audio id="click" src="audio/click-5.mp3" preload="auto"></audio>
+    <audio id="pop" src="audio/pop-1.mp3" preload="auto"></audio>
+    <audio  id="background" loop preload="auto" src="audio/background.mp3"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
