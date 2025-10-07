@@ -11,6 +11,12 @@ This project supports both **Single Player (vs Computer)** and **Two Player** mo
 
 ---
 
+## 📍Live Demo
+
+- https://al9wel-4.netlify.app/
+
+---
+
 ## 🚀 Features
 
 - 👥 **Two Game Modes** – Play solo against an AI or challenge a friend locally.  
